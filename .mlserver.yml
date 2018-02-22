@@ -1,0 +1,16 @@
+server:
+  port: 8081
+  host: "0.0.0.0"
+  debug: false
+  name: "mlserver"
+mongo:
+  database: "mlserver"
+  url: "127.0.0.1"
+rabbitmq:
+  host: "127.0.0.1"
+  port: 5672
+  username: "guest"
+  password: "guest"  
+  exchange: "fileProcessing"
+datasource:
+  folder: "./datasource_folder"
